@@ -1,8 +1,9 @@
+rockspec_format = "3.0"
 package = "lua-resty-dogstatsd"
-version = "1.0.1-1"
+version = "1.0.2-1"
 source = {
   url = "git://github.com/jumbleberry/lua-resty-dogstatsd.git",
-  tag = "v1.0.1"
+  tag = "v1.0.2"
 }
 description = {
   summary = "DogStatsd client for OpenResty/ngx_lua",
@@ -12,7 +13,7 @@ description = {
 }
 dependencies = {
   "lua >= 5.1",
-  "lua-resty-statsd >= 3.0.2",
+  "jumbleberry/lua-resty-statsd >= 3.0.2",
 }
 build = {
   type = "builtin",
